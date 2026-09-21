@@ -59,9 +59,10 @@ class NeuralNetwork:
             self.feedforward(X)
             self.backpropagation(X, y, learning_rate)
 
+            #MSE: Mean squared error, diference between the expected value and the predicted value
             if epoch % 1000 == 0:
                 error = np.mean(np.square(y - self.a2))
-                print(f"Época{epoch} - Error: {error:.6f}")
+                print(f"Epoch{epoch} - Error: {error:.6f}")
 
     def save_model(self, file_name):
         # np.savez saves the model parameters to a file
