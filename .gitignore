@@ -1,0 +1,34 @@
+
+# Entorno Virtual de Python
+
+venv/
+env/
+
+
+# Archivos compilados de Python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Archivos del sistema macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Entornos de Desarrollo / Editores
+
+.vscode/
+.idea/
+*.swp
+
+
+# Otros
+
+# Ignorar archivos de variables de entorno si llegas a usar uno
+.env
