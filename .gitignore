@@ -27,7 +27,8 @@ Icon
 .idea/
 *.swp
 
-
+# Rust
+target/
 # Otros
 
 # Ignorar archivos de variables de entorno si llegas a usar uno

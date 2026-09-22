@@ -76,4 +76,4 @@ class NeuralNetwork:
         self.b1 = data['b1']
         self.W2 = data['W2']
         self.b2 = data['b2']
-        print(f"Model loaded successfully from {file_name}.npz")      
+        print(f"Model loaded successfully from {file_name}.npz")

@@ -7,7 +7,7 @@ if __name__ == "__main__":
 
     # PHASE 1: TRAIN AND SAVE
 
-    print("--- PHASE 1: Training the original network ---")
+    print("PHASE 1: Training the original network")
     original_network = NeuralNetwork(input_size=2, hidden_size=4, output_size=1)
     original_network.training(X=X, y=y, epochs=10000, learning_rate=1.0)
     
@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     # PHASE 2: LOAD AND PREDICT (Without training)
 
-    print("\n--- PHASE 2: Testing the memory of a new network ---")
+    print("PHASE 2: Testing the memory of a new network")
     # Instantiate a completely new network (with useless random weights)
     cloned_network = NeuralNetwork(input_size=2, hidden_size=4, output_size=1)
     
